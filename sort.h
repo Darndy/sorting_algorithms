@@ -22,6 +22,18 @@ typedef struct array_s
 	int size;
 } array_t;
 
+/**
+ *  * enum bool - Enumeration of Boolean values.
+ *   * @false: Equals 0.
+ *    * @true: Equals 1.
+ *     */
+typedef enum bool
+{
+		false = 0,
+			true
+} bool;
+
+
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
