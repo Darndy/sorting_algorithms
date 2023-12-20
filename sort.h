@@ -65,5 +65,9 @@ array_t merge(array_t sup_arr, array_t left, array_t right,
 array_t create_array(int *array, int size, int start);
 void print_merge(array_t left, array_t right);
 
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+		                size_t back);
+void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
+void merge_sort(int *array, size_t size);
 
 #endif /*_SORT_H_*/
